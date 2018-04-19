@@ -352,7 +352,7 @@ class Slinky {
       .unwrap()
 
     // remove any current active
-    menu.find('.active').removeClass('active')
+    //menu.find('.active').removeClass('active') // for keep active state
 
     // remove any Slinky style classes
     const styles = menu.attr('class').split(' ')
